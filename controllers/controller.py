@@ -18,3 +18,8 @@ def played(one_choice, two_choice):
 def computer_game():
     return render_template("play.html", title="Play the computer!")
     
+# @app.route("/play/<choice>", methods=["post"])
+# def computer_game(choice):
+#     winner_object = Game.play_computer(choice)
+#     winner = winner_object.name
+#     return render_template("play.html", title="Play the computer!")

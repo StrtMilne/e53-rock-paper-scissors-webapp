@@ -15,6 +15,13 @@ body {
     padding: 20px 20px 20px 50px;
     background-color: coral;
     color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.nav-item {
+    margin: 0 15px 0 15px;
 }
 
 .explainer {
