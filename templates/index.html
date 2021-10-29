@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
+    <h2>You played Rock, Paper, Scissors!</h2>
 
+    <p>Player 1: {{ one_choice }}</p>
+    <p>Player 2: {{ two_choice }}</p>
+
+    <h2>The winner is...</h2>
+
+    <p>{{ winner }}</p>
 {% endblock %}
