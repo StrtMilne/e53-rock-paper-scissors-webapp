@@ -1,10 +1,12 @@
-<htm>
+<html>
     <head>
         <title>{{ title }} - Rock, paper, scissors</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='home_style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='played_style.css') }}">"
     </head>
     <body>
-        <h1>{{ title }} - Rock, paper, scissors</h1>
-        <ul>
+        <h1 class="heading">{{ title }} - Rock, paper, scissors</h1>
+        <ul class="nav-bar">
             <li><a href="/">Home</a></li>
         </ul>
 
@@ -12,4 +14,4 @@
 
         {% endblock %}
     </body>
-</htm>
+</html>

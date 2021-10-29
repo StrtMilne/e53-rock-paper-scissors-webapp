@@ -1,0 +1,45 @@
+.played-header {
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.player-1 {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.player-2 {
+    background-color: coral;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.vs {
+    padding: 20px;
+}
+
+.winner {
+    background-color: wheat;
+    margin: 0;
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center ;
+}
+
+.versus {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.win-player {
+    font-size: 60px;
+}

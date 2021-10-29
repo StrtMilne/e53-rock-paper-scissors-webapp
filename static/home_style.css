@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.Heading{
+    margin: 0;
+    padding: 20px;
+    background-color: teal;
+    color: white;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 20px 20px 20px 50px;
+    background-color: coral;
+    color: black;
+}
+
+.explainer {
+    padding: 0 0 0 20px;
+}

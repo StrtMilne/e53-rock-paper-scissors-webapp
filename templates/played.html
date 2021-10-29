@@ -1,18 +1,23 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h2>You played Rock, Paper, Scissors!</h2>
-
-    <p>Player 1: {{ one_choice }}</p>
-    <p>Player 2: {{ two_choice }}</p>
-
+    <h2 class="center">You played Rock, Paper, Scissors!</h2>
+    <div class="versus">
+        <p class="player-1">Player 1: {{ one_choice }}</p>
+        <p class="vs">Vs</p>
+        <p class="player-2">Player 2: {{ two_choice }}</p>
+    </div>
     {% if winner == "None" %}
+    <div class="winner">
         <h2>The winner is...</h2>
-        <p>No one! It was a draw!</p>
+        <p class="win-player">No one! It was a draw!</p>
+    </div>
     {% endif %}
 
     {% if winner != "None" %}
+    <div class="winner">
         <h2>The winner is...</h2>
-        <p>{{ winner.name }}!</p>
+        <p class="win-player">{{ winner.name }}!</p>
+    </div>
     {% endif %}
 {% endblock %}
