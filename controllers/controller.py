@@ -13,3 +13,8 @@ def played(one_choice, two_choice):
     player_2 = Player("Player 2", two_choice)
     winner_object = Game.winner_is(player_1, player_2)
     return render_template("played.html", title="You played a game!", one_choice=one_choice, two_choice=two_choice, winner=winner_object)
+
+@app.route("/play")
+def computer_game():
+    return render_template("play.html", title="Play the computer!")
+    
