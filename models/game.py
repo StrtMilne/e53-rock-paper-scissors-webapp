@@ -29,5 +29,7 @@ class Game:
             else:
                 return player_2
 
-    def create_player(self):
-        return Player("computer", choice("rock", "paper", "scissors"))
+    def create_player():
+        list = ["rock", "paper", "scissors"]
+        pick = choice(list)
+        return Player("computer", pick)
